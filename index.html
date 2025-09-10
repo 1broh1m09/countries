@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="./main.js"></script>
+</head>
+
+<body id="body">
+
+    <header id="header">
+        <div class="container">
+            <div class="rowheader">
+                <p id="title" class="headertitle">Where in the world?</p>
+                <div>
+                    <button id="dark" class="headerInfo">Dark mode</button>
+                    <button id="light" class="headerInfo">Light mode</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="sectionrow">
+                    <div class="rowput">
+                        <div class="inputbox">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input id="searchput" class="button" type="text" placeholder=" Search for a country…">
+                        </div>
+                        <select id="selection">
+                            <option value="">All Regions</option>
+                            <option value="africa">Africa</option>
+                            <option value="americas">Americas</option>
+                            <option value="asia">Asia</option>
+                            <option value="europe">Europe</option>
+                            <option value="oceania">Oceania</option>
+                            <option value="antarctic">Antarctic</option>
+                        </select>
+                    </div>
+                    <div id="boxes" class="boxes">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

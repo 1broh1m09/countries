@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #202536;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+header {
+    background-color: #2B3844;
+    color: white;
+    border: 4px solid gray;
+}
+
+.container {
+    width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.rowheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.headertitle {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0px;
+    margin-left: 81px;
+}
+
+.headerInfo {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 80px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.section {
+    height: 944px;
+}
+
+.inputbox {
+    position: relative;
+    width: 480px;
+    height: 56px;
+    background-color: #2B3844;
+    margin-top: 48px;
+    margin-left: 80px;
+}
+
+.button {
+    position: relative;
+    width: 136px;
+    height: 20px;
+    background-color: #2B3844;
+    color: white;
+    border: none;
+}
+
+placeholder {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+i {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    margin: 19px 32px;
+}
+
+.box {
+    background-color: #2B3844;
+    width: 264px;
+    height: 250px;
+    margin-top: 48px;
+    margin-left: 80px;
+}
+
+.flag {
+    width: 264px;
+    height: 160px;
+}
+
+.boxtext {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.rowput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select {
+    background-color: transparent;
+    height: 50px;
+    width: 150px;
+    margin-right: 200px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: darkblue;
+}
+
+.region {
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
